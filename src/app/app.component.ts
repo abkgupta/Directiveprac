@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Directiveprac';
+  // courses = [1,2]
+  courses = []
+  // imageUrl = 'https://picsum.photos/200';  // property binding
+
+  // for ngSwitch prac
+    viewMode = 'map';
 }
